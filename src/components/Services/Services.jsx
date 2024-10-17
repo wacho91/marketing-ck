@@ -16,6 +16,45 @@ const Services = () => {
             </p>
         </div>
         {/*Card Section*/}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+                <img 
+                    src={serviceImg} 
+                    alt="service-image"
+                    className="w-[300px] mx-auto md:max-w-[500px]" 
+                />
+            </div>
+            <div className="max-w-[300px] mx-auto space-y-4">
+                <img src={serviceImg} alt="image" className="w-14" />
+                <p className="uppercase font-semibold text-xl">Learn By doing</p>
+                <p className="text-gray-500 pl-6 border-l-2">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Voluptates vel eaque ea dolorem voluptate, nesciunt mollitia
+                    asperiores magnam? Assumenda perferendis optio dicta natus nobis,
+                    cupiditate eveniet libero ratione quam iusto!
+                </p>
+            </div>
+            <div className="max-w-[300px] mx-auto space-y-4">
+                <img src={serviceImg} alt="" className="w-14" />
+                <p className="uppercase font-semibold text-xl">Learn By doing</p>
+                <p className="text-gray-500 pl-6 border-l-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptates vel eaque ea dolorem voluptate, nesciunt mollitia
+                asperiores magnam? Assumenda perferendis optio dicta natus nobis,
+                cupiditate eveniet libero ratione quam iusto!
+                </p>
+            </div>
+            <div className="max-w-[300px] mx-auto space-y-4">
+                <img src={serviceImg} alt="" className="w-14" />
+                <p className="uppercase font-semibold text-xl">Learn By doing</p>
+                <p className="text-gray-500 pl-6 border-l-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptates vel eaque ea dolorem voluptate, nesciunt mollitia
+                asperiores magnam? Assumenda perferendis optio dicta natus nobis,
+                cupiditate eveniet libero ratione quam iusto!
+                </p>
+            </div>
+        </div>
     </div>
   )
 }
