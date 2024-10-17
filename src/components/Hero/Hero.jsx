@@ -1,4 +1,6 @@
 
+import HeroImg from "../../assets/1.png"
+
 const Hero = () => {
   return (
     <div className="container">
@@ -18,6 +20,13 @@ const Hero = () => {
             </button>
         </div>
         {/*Hero image section*/}
+        <div className="flex justify-center items-center">
+            <img 
+                src={HeroImg} 
+                alt="image"
+                className="w-[90%] md:w-[550px] xl:w-[600px]" 
+            />
+        </div>
       </div>
     </div>
   )
