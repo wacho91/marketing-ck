@@ -1,4 +1,5 @@
 import Banner from "./components/Banner/Banner"
+import Card from "./components/Card/Card"
 import Hero from "./components/Hero/Hero"
 import Navbar from "./components/Navbar/Navbar"
 import Services from "./components/Services/Services"
@@ -13,6 +14,7 @@ function App() {
         <Hero />
         <Services />
         <Banner />
+        <Card />
     </main>
   )
 }
