@@ -27,7 +27,13 @@ const Banner = () => {
             </div>
         </div>
         {/*Banner Image Section*/}
-        
+        <div>
+            <img 
+                src={BannerImg} 
+                alt="Image"
+                className="w-[90%] md:w-[550px] xl:w-[600px] md:!scale-125" 
+            />
+        </div>
       </div>
     </div>
   )
