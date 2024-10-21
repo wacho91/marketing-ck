@@ -27,7 +27,7 @@ const Banner = () => {
             </div>
         </div>
         {/*Banner Image Section*/}
-        <div>
+        <div className="flex justify-center items-center">
             <img 
                 src={BannerImg} 
                 alt="Image"
