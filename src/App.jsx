@@ -10,11 +10,11 @@ function App() {
 
   return (
     <main className="overflow-x-hidden">
-        <Navbar />
-        <Hero />
-        <Services />
-        <Banner />
-        <Card />
+      <Navbar />
+      <Hero />
+      <Services />
+      <Banner />
+      <Card />
     </main>
   )
 }
