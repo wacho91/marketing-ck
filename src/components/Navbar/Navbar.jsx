@@ -1,6 +1,9 @@
 
 import Logo from "../../assets/1.png";
 
+import { motion } from "framer-motion";
+import { slideBottom } from "../../Utility/Animation";
+
 const NavbarLinks = [
   {
     id: 1,
@@ -31,7 +34,12 @@ const NavbarLinks = [
 
 const Navbar = () => {
   return (
-    <div className="py-8 container flex justify-between items-center">
+    <motion.div
+      variants={slideBottom(0.2)}
+      initial="initial"
+      animate="animate" 
+      className="py-8 container flex justify-between items-center"
+    >
       {/*Logo Section*/}
       <div className="flex items-center gap-1">
         <img src={Logo} alt="logo" className="w-[70px]"/>
@@ -57,7 +65,7 @@ const Navbar = () => {
       <div>
         <button className="primary-btn">Request for Quotes</button>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
